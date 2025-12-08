@@ -18,12 +18,11 @@ Write-Output ""
 If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]'Administrator')) {
     Write-Output "This script needs to run as Administrator.`nThis script will self elevate to run as an Administrator and continue."
     Start-Sleep 1
-    Write-Output "3"
-    Start-Sleep 1
-    Write-Output "2"
-    Start-Sleep 1
-    Write-Output "1"
-    Start-Sleep 1
+    for ($i = 3; $i -ge 1; $i--) {
+        Write-Host -NoNewline "$i... "
+        Start-Sleep 1
+    }
+    Write-Host ""  # newline
     Start-Process powershell.exe -ArgumentList ("-NoProfile -ExecutionPolicy Bypass -File `"{0}`" -customwhitelist {1} -TasksToRemove {2}" -f $PSCommandPath, ($customwhitelist -join ','), ($TasksToRemove -join ',')) -Verb RunAs
     Exit
 }
