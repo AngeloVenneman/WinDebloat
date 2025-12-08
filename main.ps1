@@ -4,5 +4,11 @@
 #                                                                               #
 #################################################################################
 
-Write-Output "Welcome to WinDebloat!"
-Write-Output "This script will help you remove unnecessary bloatware from your Windows installation."   
+Write-Output "__          ___       _____       _     _             _   "
+Write-Output "\ \        / (_)     |  __ \     | |   | |           | |  "
+Write-Output " \ \  /\  / / _ _ __ | |  | | ___| |__ | | ___   __ _| |_ "
+Write-Output "  \ \/  \/ / | | '_ \| |  | |/ _ \ '_ \| |/ _ \ / _` | __|"
+Write-Output "   \  /\  /  | | | | | |__| |  __/ |_) | | (_) | (_| | |_ "
+Write-Output "    \/  \/   |_|_| |_|_____/ \___|_.__/|_|\___/ \__,_|\__|"
+
+Write-Output "                                                       by Angelo Venneman"
