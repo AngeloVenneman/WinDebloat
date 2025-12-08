@@ -39,7 +39,7 @@ $ProgressPreference = 'SilentlyContinue' # Suppress progress bars
 
 #################################################################################
 #                                                                               #
-#   Create WinDebloat folder.                                                   #
+#   Create WinDebloat folder                                                    #
 #                                                                               #
 #################################################################################
 
@@ -52,8 +52,15 @@ Else {
     Write-Output "Created WinDebloat folder at $WinDebloat"
 }
 
+#################################################################################
+#                                                                               #
+#   Start Transcript (Logging)                                                  #
+#                                                                               #
+#################################################################################
+
+Write-Output "" 
 Start-Transcript -Path "$WinDebloat\WinDebloat_Log_$(Get-Date -Format 'yyyy-MM-dd_HH-mm-ss').txt"
-Write-Output "Transcript started. All actions will be logged to the WinDebloat folder."
+Write-Output ""
 
 #################################################################################
 #                                                                               #
