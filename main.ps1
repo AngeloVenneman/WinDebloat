@@ -16,7 +16,7 @@ Write-Output ""
 #################################################################################
 
 If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]'Administrator')) {
-    write-output "This script needs to run as Administrator. This script will self elevate to run as an Administrator and continue."
+    write-output "This script needs to run as Administrator.`n This script will self elevate to run as an Administrator and continue."
     Start-Sleep 1
     write-output "                                               3"
     Start-Sleep 1
