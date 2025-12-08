@@ -43,7 +43,7 @@ $ProgressPreference = 'SilentlyContinue' # Suppress progress bars
 #################################################################################
 
 $WinDebloat = "$env:SystemDrive\WinDebloat"
-If (Test-Path == $WinDebloat) {
+If (Test-Path -Path $WinDebloat) {
     Write-Output "WinDebloat folder already exists."
 }
 Else {
