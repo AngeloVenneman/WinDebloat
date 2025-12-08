@@ -23,7 +23,7 @@ If (!([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]:
         Start-Sleep 1
     }
     Write-Host ""  # newline
-    Start-Process powershell.exe -ArgumentList ("-NoProfile -ExecutionPolicy Bypass -File `"{0}`" -customwhitelist {1} -TasksToRemove {2}" -f $PSCommandPath, ($customwhitelist -join ','), ($TasksToRemove -join ',')) -Verb RunAs
+    Start-Process powershell.exe -ArgumentList ("-NoProfile -ExecutionPolicy Bypass -File `"{0}`"" -f $PSCommandPath) -Verb RunAs
     Exit
 }
 
@@ -43,7 +43,7 @@ $ProgressPreference = 'SilentlyContinue' # Suppress progress bars
 #################################################################################
 
 $WinDebloat = "$env:SystemDrive\WinDebloat"
-If (Test-Path -Path $WinDebloat) {
+If (Test-Path $WinDebloat) {
     Write-Output "WinDebloat folder already exists."
 }
 Else {
