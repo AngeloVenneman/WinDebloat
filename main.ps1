@@ -10,5 +10,7 @@ Write-Output " \ \  /\  / / _ _ __ | |  | | ___| |__ | | ___   __ _| |_ "
 Write-Output "  \ \/  \/ / | | '_ \| |  | |/ _ \ '_ \| |/ _ \ / _` | __|"
 Write-Output "   \  /\  /  | | | | | |__| |  __/ |_) | | (_) | (_| | |_ "
 Write-Output "    \/  \/   |_|_| |_|_____/ \___|_.__/|_|\___/ \__,_|\__|"
-
+Write-Output ""
 Write-Output "                                                       by Angelo Venneman"
+Write-Output ""
+Write-Output ""
