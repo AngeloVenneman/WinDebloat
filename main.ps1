@@ -96,7 +96,6 @@ $appxtoremove = @(
     "Microsoft.WindowsSoundRecorder",
     "Microsoft.Xbox.TCUI",
     "Microsoft.XboxApp",
-    "Microsoft.XboxGameCallableUI",
     "Microsoft.XboxIdentityProvider",
     "Microsoft.ZuneMusic",
     "Microsoft.ZuneVideo"
