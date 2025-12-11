@@ -63,41 +63,32 @@ Write-Output ""
 
 #################################################################################
 #                                                                               #
+#   Collect Appx before debloat                                                 #
+#                                                                               #
+#################################################################################
+
+$machine = $env:COMPUTERNAME
+$manufacturer = (Get-CimInstance Win32_ComputerSystem).Manufacturer -replace '[^\w]', ''
+if ([string]::IsNullOrWhiteSpace($manufacturer)) { $manufacturer = "Unknown" }
+
+$appxList = Get-AppxPackage -AllUsers | Select-Object -ExpandProperty Name | Sort-Object -Unique
+
+# Include manufacturer in the filename: MACHINE_MANUFACTURER.json
+$fileName = "$manufacturer - $machine.json"
+$filePath = Join-Path $WinDebloat $fileName
+
+$appxList | ConvertTo-Json -Depth 5 | Set-Content -Path $filePath
+
+Write-Output "AppX list saved for $machine ($manufacturer) → $fileName"
+
+#################################################################################
+#                                                                               #
 #    AppX Packages                                                        #
 #                                                                               #
 #################################################################################
 
 $appxtoremove = @(
-    "Microsoft.3DBuilder",
-    "Microsoft.BingFinance",
-    "Microsoft.BingNews",
-    "Microsoft.BingSports",
-    "Microsoft.BingWeather",
-    "Microsoft.GetHelp",
-    "Microsoft.Getstarted",
-    "Microsoft.Microsoft3DViewer",
-    "Microsoft.MicrosoftOfficeHub",
-    "Microsoft.MicrosoftSolitaireCollection",
-    "Microsoft.MicrosoftStickyNotes",
-    "Microsoft.MixedReality.Portal",
-    "Microsoft.MSPaint",
-    "Microsoft.News",
-    "Microsoft.Office.OneNote",
-    "Microsoft.OneConnect",
-    "Microsoft.People",
-    "Microsoft.Print3D",
-    "Microsoft.SkypeApp",
-    "Microsoft.SolitaireCollection",
-    "Microsoft.Wallet",
-    "Microsoft.WindowsAlarms",
-    "Microsoft.WindowsFeedbackHub",
-    "Microsoft.WindowsMaps",
-    "Microsoft.WindowsSoundRecorder",
-    "Microsoft.Xbox.TCUI",
-    "Microsoft.XboxApp",
-    "Microsoft.XboxIdentityProvider",
-    "Microsoft.ZuneMusic",
-    "Microsoft.ZuneVideo"
+    ""
 )
 
 $appxinstalled = Get-AppxPackage -AllUsers | Where-Object { $appxtoremove -contains $_.Name }
@@ -112,6 +103,30 @@ foreach ($appxapp in $appxinstalled) {
     }
     catch {
         write-output "$displayname AppX Package does not exist"
+    }
+}
+
+################################################################################
+#                                                                              #
+#    Traditional Packages                                                      #
+#                                                                              #
+################################################################################
+
+# Specify the uninstall command for the program - Uninstaller found at these registery paths:
+# HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+# HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall
+$programs = @(
+    @{ Name="Audacity 3.7.6"; Path="C:\Program Files (x86)\Audacity\unins000.exe"; Args="/VERYSILENT /SUPPRESSMSGBOXES /NORESTART" },
+    @{ Name="ImgBurn"; Path="C:\Program Files (x86)\ImgBurn\uninstall.exe"; Args="/S" }
+)
+
+foreach ($p in $programs) {
+    if (Test-Path $p.Path) {
+        Write-Output "Uninstalling $($p.Name) silently..."
+        Start-Process -FilePath $p.Path -ArgumentList $p.Args -Wait -WindowStyle Hidden
+        Write-Output "$($p.Name) uninstall attempted."
+    } else {
+        Write-Output "$($p.Name) not found at $($p.Path)"
     }
 }
 
@@ -163,5 +178,12 @@ if ($manufacturer -like "Lenovo") {
 #                                                                               #
 #################################################################################
 
+
+
+#################################################################################
+#                                                                               #
+#     END                                                                       #
+#                                                                               #
+#################################################################################
 
 write-output "Completed"
