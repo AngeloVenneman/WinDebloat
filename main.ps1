@@ -94,7 +94,7 @@ $uninstallKeys = @(
 )
 
 # Output folder
-$exportFolder = "C:\WinDebloat\RegistryExports"
+$exportFolder = "C:\WinDebloat"
 if (-not (Test-Path $exportFolder)) { New-Item -ItemType Directory -Path $exportFolder }
 
 foreach ($key in $uninstallKeys) {
@@ -121,7 +121,7 @@ foreach ($key in $uninstallKeys) {
 
 #################################################################################
 #                                                                               #
-#    AppX Packages                                                              #
+#    AppX Packages Removal                                                      #
 #                                                                               #
 #################################################################################
 
@@ -146,7 +146,7 @@ foreach ($appxapp in $appxinstalled) {
 
 ################################################################################
 #                                                                              #
-#    Traditional Packages                                                      #
+#    Traditional Packages Removal                                              #
 #                                                                              #
 ################################################################################
 
