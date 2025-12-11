@@ -83,7 +83,45 @@ Write-Output "AppX list saved for $machine ($manufacturer) → $fileName"
 
 #################################################################################
 #                                                                               #
-#    AppX Packages                                                        #
+#    Export Traditional Programs from Registry                                  #
+#                                                                               #
+#################################################################################
+
+# Registry keys to export
+$uninstallKeys = @(
+    "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall",
+    "HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall"
+)
+
+# Output folder
+$exportFolder = "C:\WinDebloat\RegistryExports"
+if (-not (Test-Path $exportFolder)) { New-Item -ItemType Directory -Path $exportFolder }
+
+foreach ($key in $uninstallKeys) {
+    $keyName = ($key -replace "[:\\]", "_") + ".reg.json"  # Convert to safe filename
+    $exportPath = Join-Path $exportFolder $keyName
+
+    # Get all subkeys and their properties
+    $allApps = Get-ChildItem $key -ErrorAction SilentlyContinue | ForEach-Object {
+        $props = Get-ItemProperty $_.PsPath
+        # Export only relevant properties
+        [PSCustomObject]@{
+            DisplayName = $props.DisplayName
+            DisplayVersion = $props.DisplayVersion
+            Publisher = $props.Publisher
+            InstallLocation = $props.InstallLocation
+            UninstallString = $props.UninstallString
+        }
+    }
+
+    # Save to JSON
+    $allApps | ConvertTo-Json -Depth 5 | Set-Content -Path $exportPath
+    Write-Output "Exported $key to $exportPath"
+}
+
+#################################################################################
+#                                                                               #
+#    AppX Packages                                                              #
 #                                                                               #
 #################################################################################
 
@@ -116,8 +154,7 @@ foreach ($appxapp in $appxinstalled) {
 # HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
 # HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall
 $programs = @(
-    @{ Name="Audacity 3.7.6"; Path="C:\Program Files (x86)\Audacity\unins000.exe"; Args="/VERYSILENT /SUPPRESSMSGBOXES /NORESTART" },
-    @{ Name="ImgBurn"; Path="C:\Program Files (x86)\ImgBurn\uninstall.exe"; Args="/S" }
+    @{ Name=""; Path=""; Args="" }
 )
 
 foreach ($p in $programs) {
