@@ -1,0 +1,660 @@
+[
+    {
+        "DisplayName":  "7-Zip 24.09 (x64)",
+        "DisplayVersion":  "24.09",
+        "Publisher":  "Igor Pavlov",
+        "InstallLocation":  "C:\\Program Files\\7-Zip\\",
+        "UninstallString":  "\"C:\\Program Files\\7-Zip\\Uninstall.exe\""
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "Audacity 3.7.3",
+        "DisplayVersion":  "3.7.3",
+        "Publisher":  "Audacity Team",
+        "InstallLocation":  "C:\\Program Files\\Audacity\\",
+        "UninstallString":  "\"C:\\Program Files\\Audacity\\unins000.exe\""
+    },
+    {
+        "DisplayName":  "Autodesk Identity Manager",
+        "DisplayVersion":  "1.11.9.11",
+        "Publisher":  "Autodesk",
+        "InstallLocation":  "C:\\Program Files\\Autodesk\\AdskIdentityManager\\1.11.9.11",
+        "UninstallString":  "\"C:\\Program Files\\Autodesk\\AdskIdentityManager\\uninstall.exe\""
+    },
+    {
+        "DisplayName":  "CCleaner",
+        "DisplayVersion":  "6.39",
+        "Publisher":  "Piriform",
+        "InstallLocation":  "C:\\Program Files\\CCleaner",
+        "UninstallString":  "\"C:\\Program Files\\CCleaner\\uninst.exe\""
+    },
+    {
+        "DisplayName":  "Windows Driver Package - FTDI CDM Driver Package - Bus/D2XX Driver (08/16/2017 2.12.28)",
+        "DisplayVersion":  "08/16/2017 2.12.28",
+        "Publisher":  "FTDI",
+        "InstallLocation":  null,
+        "UninstallString":  "C:\\PROGRA~1\\DIFX\\862E75C35EC9FF84\\dpinst-amd64.exe /u C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\ftdibus.inf_amd64_05f8aaf91a0fd638\\ftdibus.inf"
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "Windows Driver Package - FTDI CDM Driver Package - VCP Driver (08/16/2017 2.12.28)",
+        "DisplayVersion":  "08/16/2017 2.12.28",
+        "Publisher":  "FTDI",
+        "InstallLocation":  null,
+        "UninstallString":  "C:\\PROGRA~1\\DIFX\\862E75C35EC9FF84\\dpinst-amd64.exe /u C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\ftdiport.inf_amd64_fe47f04d1c466666\\ftdiport.inf"
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "Greenshot 1.2.10.6",
+        "DisplayVersion":  "1.2.10.6",
+        "Publisher":  "Greenshot",
+        "InstallLocation":  "C:\\Program Files\\Greenshot\\",
+        "UninstallString":  "\"C:\\Program Files\\Greenshot\\unins000.exe\""
+    },
+    {
+        "DisplayName":  "HP Documentation",
+        "DisplayVersion":  "1.0.0.1",
+        "Publisher":  "HP Inc.",
+        "InstallLocation":  null,
+        "UninstallString":  "CMD /C \"C:\\Program Files\\HP\\Documentation\\Doc_Uninstall.cmd\""
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "Lansweeper IT Agent Discovery",
+        "DisplayVersion":  "4.8.11",
+        "Publisher":  "Lansweeper",
+        "InstallLocation":  "C:\\Program Files\\Lansweeper IT Agent Discovery",
+        "UninstallString":  "\"C:\\Program Files\\Lansweeper IT Agent Discovery\\uninstall.exe\""
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "C:\\WINDOWS\\System32\\",
+        "UninstallString":  "\"C:\\WINDOWS\\System32\\mspaint.exe\" /uninstall"
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "C:\\WINDOWS\\System32\\",
+        "UninstallString":  "\"C:\\WINDOWS\\System32\\mstsc.exe\" /uninstall"
+    },
+    {
+        "DisplayName":  "Microsoft 365 Apps for Business - de-de",
+        "DisplayVersion":  "16.0.19426.20186",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "C:\\Program Files\\Microsoft Office",
+        "UninstallString":  "\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=O365BusinessRetail.16_de-de_x-none culture=de-de version.16=16.0"
+    },
+    {
+        "DisplayName":  "Microsoft 365 Apps for business - en-us",
+        "DisplayVersion":  "16.0.19426.20186",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "C:\\Program Files\\Microsoft Office",
+        "UninstallString":  "\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=O365BusinessRetail.16_en-us_x-none culture=en-us version.16=16.0"
+    },
+    {
+        "DisplayName":  "Microsoft 365 Apps for business - fr-fr",
+        "DisplayVersion":  "16.0.19426.20186",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "C:\\Program Files\\Microsoft Office",
+        "UninstallString":  "\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=O365BusinessRetail.16_fr-fr_x-none culture=fr-fr version.16=16.0"
+    },
+    {
+        "DisplayName":  "Microsoft 365-apps voor bedrijven - nl-nl",
+        "DisplayVersion":  "16.0.19426.20186",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "C:\\Program Files\\Microsoft Office",
+        "UninstallString":  "\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=O365BusinessRetail.16_nl-nl_x-none culture=nl-nl version.16=16.0"
+    },
+    {
+        "DisplayName":  "Microsoft OneDrive",
+        "DisplayVersion":  "25.216.1104.0002",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  null,
+        "UninstallString":  "\"C:\\Program Files\\Microsoft OneDrive\\25.216.1104.0002\\OneDriveSetup.exe\"  /uninstall  /allusers "
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "C:\\WINDOWS\\System32\\",
+        "UninstallString":  "\"C:\\WINDOWS\\System32\\SnippingTool.exe\" /uninstall"
+    },
+    {
+        "DisplayName":  "TeamViewer",
+        "DisplayVersion":  "15.47.3",
+        "Publisher":  "TeamViewer",
+        "InstallLocation":  "C:\\Program Files\\TeamViewer",
+        "UninstallString":  "\"C:\\Program Files\\TeamViewer\\uninstall.exe\""
+    },
+    {
+        "DisplayName":  "VLC media player",
+        "DisplayVersion":  "3.0.21",
+        "Publisher":  "VideoLAN",
+        "InstallLocation":  "C:\\Program Files\\VideoLAN\\VLC",
+        "UninstallString":  "\"C:\\Program Files\\VideoLAN\\VLC\\uninstall.exe\""
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "WinRAR 7.13 (64-bit)",
+        "DisplayVersion":  "7.13.0",
+        "Publisher":  "win.rar GmbH",
+        "InstallLocation":  "C:\\Program Files\\WinRAR",
+        "UninstallString":  "C:\\Program Files\\WinRAR\\uninstall.exe"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664",
+        "DisplayVersion":  "12.0.40664",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{010792BA-551A-3AC0-A7EF-0FAB4156C382}"
+    },
+    {
+        "DisplayName":  "Intel(R) Serial IO",
+        "DisplayVersion":  "30.100.2013.5",
+        "Publisher":  "Intel Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{01F88B2F-6059-4E71-B5BF-A564D3E85493}"
+    },
+    {
+        "DisplayName":  "HP EmailSMTP Plugin",
+        "DisplayVersion":  "56.0.517.0",
+        "Publisher":  "HP",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{07CE223D-3A39-43C8-811F-8D42918F3E0E}"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.44.35208",
+        "DisplayVersion":  "14.44.35208",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{130A991B-6E86-4D62-86F4-656E6C9DA867}"
+    },
+    {
+        "DisplayName":  "HP Security Update Service",
+        "DisplayVersion":  "4.4.28.1602",
+        "Publisher":  "HP Inc.",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{1BC187E8-DD6C-43AC-A979-D0D1E0E13DBA}"
+    },
+    {
+        "DisplayName":  "Intel(R) Management Engine Components",
+        "DisplayVersion":  "2044.15.0.1941",
+        "Publisher":  "Intel Corporation",
+        "InstallLocation":  "C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components",
+        "UninstallString":  "\"C:\\ProgramData\\Intel Package Cache {1CEAC85D-2590-4760-800F-8DE5E91F3700}\\Setup.exe\" -uninstall"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2010  x64 Redistributable - 10.0.40219",
+        "DisplayVersion":  "10.0.40219",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{1D8E6291-B0D5-35EC-8441-6616F567A0F7}"
+    },
+    {
+        "DisplayName":  "Microsoft Update Health Tools",
+        "DisplayVersion":  "3.74.0.0",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{1FC1A6C2-576E-489A-9B4A-92D21F542136}"
+    },
+    {
+        "DisplayName":  "HP SharePoint Plugin",
+        "DisplayVersion":  "56.0.517.0",
+        "Publisher":  "HP",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{242622FD-43B1-445D-A347-8AF9A0EA840A}"
+    },
+    {
+        "DisplayName":  "DWG TrueView 2022 - English",
+        "DisplayVersion":  "24.1.154.0",
+        "Publisher":  "Autodesk",
+        "InstallLocation":  "C:\\Program Files\\Autodesk\\DWG TrueView 2022 - English\\",
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "PCB Piezotronics Blaze",
+        "DisplayVersion":  "1.0.163",
+        "Publisher":  "PCB Piezotronics",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{2B72347B-3AE0-4A76-8B40-A5B52CF93736}"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.61030",
+        "DisplayVersion":  "11.0.61030",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{37B8F9C7-03FB-3253-8781-2517C99D7C00}"
+    },
+    {
+        "DisplayName":  "Intel(R) Management Engine Components",
+        "DisplayVersion":  "1.0.0.0",
+        "Publisher":  "Intel Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{421AF951-58FC-4380-AD66-A0BCCE490537}"
+    },
+    {
+        "DisplayName":  "ESET Management Agent",
+        "DisplayVersion":  "12.5.2104.0",
+        "Publisher":  "ESET, spol. s r.o.",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{45E32117-E90E-4558-917E-8E45B306EF4F}"
+    },
+    {
+        "DisplayName":  "ESET Endpoint Security",
+        "DisplayVersion":  "12.1.2057.3",
+        "Publisher":  "ESET, spol. s r.o.",
+        "InstallLocation":  "C:\\Program Files\\ESET\\ESET Security",
+        "UninstallString":  "MsiExec.exe /I{53330011-DD6F-41A6-AA99-82027C8B4843}"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40664",
+        "DisplayVersion":  "12.0.40664",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{53CF6934-A98D-3D84-9146-FC4EDF3D5641}"
+    },
+    {
+        "DisplayName":  "Autodesk Navisworks Freedom 2025",
+        "DisplayVersion":  "22.0.1411.23",
+        "Publisher":  "Autodesk",
+        "InstallLocation":  "C:\\Program Files\\Autodesk\\Navisworks Freedom 2025\\",
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "Autodesk Navisworks Freedom 2025 - ????????",
+        "DisplayVersion":  "22.0.1411.23",
+        "Publisher":  "Autodesk",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{5A236942-D6FE-0404-8C98-F0387415C15E}"
+    },
+    {
+        "DisplayName":  "Autodesk Navisworks Freedom 2025 - Language Pack Deutsch (German)",
+        "DisplayVersion":  "22.0.1411.23",
+        "Publisher":  "Autodesk",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{5A236942-D6FE-0407-8C98-F0387415C15E}"
+    },
+    {
+        "DisplayName":  "Autodesk Navisworks Freedom 2025 - English Language Pack",
+        "DisplayVersion":  "22.0.1411.23",
+        "Publisher":  "Autodesk",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{5A236942-D6FE-0409-8C98-F0387415C15E}"
+    },
+    {
+        "DisplayName":  "Autodesk Navisworks Freedom 2025 - Paquete de idioma Español (Spanish)",
+        "DisplayVersion":  "22.0.1411.23",
+        "Publisher":  "Autodesk",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{5A236942-D6FE-040A-8C98-F0387415C15E}"
+    },
+    {
+        "DisplayName":  "Autodesk Navisworks Freedom 2025 - Module linguistique Français (French)",
+        "DisplayVersion":  "22.0.1411.23",
+        "Publisher":  "Autodesk",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{5A236942-D6FE-040C-8C98-F0387415C15E}"
+    },
+    {
+        "DisplayName":  "Autodesk Navisworks Freedom 2025 - Language Pack Italiano (Italian)",
+        "DisplayVersion":  "22.0.1411.23",
+        "Publisher":  "Autodesk",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{5A236942-D6FE-0410-8C98-F0387415C15E}"
+    },
+    {
+        "DisplayName":  "Autodesk Navisworks Freedom 2025 - ???(Japanese) Language Pack",
+        "DisplayVersion":  "22.0.1411.23",
+        "Publisher":  "Autodesk",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{5A236942-D6FE-0411-8C98-F0387415C15E}"
+    },
+    {
+        "DisplayName":  "Autodesk Navisworks Freedom 2025 - ?? ? - ???(Korean)",
+        "DisplayVersion":  "22.0.1411.23",
+        "Publisher":  "Autodesk",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{5A236942-D6FE-0412-8C98-F0387415C15E}"
+    },
+    {
+        "DisplayName":  "Autodesk Navisworks Freedom 2025 - Pacote de idioma Português - Brasil (Brazilian Portuguese)",
+        "DisplayVersion":  "22.0.1411.23",
+        "Publisher":  "Autodesk",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{5A236942-D6FE-0416-8C98-F0387415C15E}"
+    },
+    {
+        "DisplayName":  "Autodesk Navisworks Freedom 2025 - ????? ??????????? ??? ???????? (Russian) ?????",
+        "DisplayVersion":  "22.0.1411.23",
+        "Publisher":  "Autodesk",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{5A236942-D6FE-0419-8C98-F0387415C15E}"
+    },
+    {
+        "DisplayName":  "Autodesk Navisworks Freedom 2025 - ????(Simplified Chinese)???",
+        "DisplayVersion":  "22.0.1411.23",
+        "Publisher":  "Autodesk",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{5A236942-D6FE-0804-8C98-F0387415C15E}"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161",
+        "DisplayVersion":  "9.0.30729.6161",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{5FCE6D76-F5DC-37AB-B2B8-22AB8CEDB1D4}"
+    },
+    {
+        "DisplayName":  "QGIS 3.22.0 \u0027Bialowieza\u0027",
+        "DisplayVersion":  "3.22.0",
+        "Publisher":  "QGIS.org",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{5FD221E5-C688-1014-BE18-679F8B569609}"
+    },
+    {
+        "DisplayName":  "Windows Mobile Device Center",
+        "DisplayVersion":  "6.1.6965.0",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{626672CD-BFCF-49A9-AEFE-AB0FED3BFC5B}"
+    },
+    {
+        "DisplayName":  "Google Chrome",
+        "DisplayVersion":  "142.0.7444.176",
+        "Publisher":  "Google LLC",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{637DE894-ACF5-3AAA-96FC-A53FC9B1904B}"
+    },
+    {
+        "DisplayName":  "HP Scan Basic Device Software",
+        "DisplayVersion":  "63.5.6303.2578",
+        "Publisher":  "HP Inc.",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{6A21CB7E-6D83-4346-B7DA-E597338A91D8}"
+    },
+    {
+        "DisplayName":  "Intel(R) LMS",
+        "DisplayVersion":  "1.0.0.0",
+        "Publisher":  "Intel Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{747E8075-4D22-445B-BA8D-9ABADB55DA65}"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.44.35208",
+        "DisplayVersion":  "14.44.35208",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{7E35F76C-5801-4A4A-817C-66AF46D3E5AD}"
+    },
+    {
+        "DisplayName":  "Autodesk Genuine Service",
+        "DisplayVersion":  "7.6.0.229",
+        "Publisher":  "Autodesk",
+        "InstallLocation":  "C:\\Program Files\\Autodesk\\Genuine Service\\",
+        "UninstallString":  "MsiExec.exe /X{83170d71-4e9d-459f-be9a-e12c6db2af55}"
+    },
+    {
+        "DisplayName":  "Microsoft SQL Server Compact 4.0 x64 ENU",
+        "DisplayVersion":  "4.0.8482.1",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "C:\\Program Files\\Microsoft SQL Server Compact Edition\\",
+        "UninstallString":  "MsiExec.exe /X{8424B163-D1E0-48B7-88A2-C7A61767B3D7}"
+    },
+    {
+        "DisplayName":  "Google Earth Pro",
+        "DisplayVersion":  "7.3.6.10441",
+        "Publisher":  "Google",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{8D42B7EA-0BF8-4E13-B646-652FE578F998}"
+    },
+    {
+        "DisplayName":  "Office 16 Click-to-Run Licensing Component",
+        "DisplayVersion":  "16.0.19029.20208",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{90160000-007E-0000-1000-0000000FF1CE}"
+    },
+    {
+        "DisplayName":  "Office 16 Click-to-Run Extensibility Component",
+        "DisplayVersion":  "16.0.19426.20170",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{90160000-008C-0000-1000-0000000FF1CE}"
+    },
+    {
+        "DisplayName":  "Office 16 Click-to-Run Localization Component",
+        "DisplayVersion":  "16.0.19426.20170",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{90160000-008C-0407-1000-0000000FF1CE}"
+    },
+    {
+        "DisplayName":  "Office 16 Click-to-Run Localization Component",
+        "DisplayVersion":  "16.0.13127.20616",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{90160000-008C-0409-1000-0000000FF1CE}"
+    },
+    {
+        "DisplayName":  "Office 16 Click-to-Run Localization Component",
+        "DisplayVersion":  "16.0.19426.20170",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{90160000-008C-040C-1000-0000000FF1CE}"
+    },
+    {
+        "DisplayName":  "Office 16 Click-to-Run Localization Component",
+        "DisplayVersion":  "16.0.19426.20170",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{90160000-008C-0413-1000-0000000FF1CE}"
+    },
+    {
+        "DisplayName":  "HP SFTP Plugin",
+        "DisplayVersion":  "56.0.517.0",
+        "Publisher":  "HP Inc.",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{9124BE51-97C3-4A10-BFC0-1000635805CB}"
+    },
+    {
+        "DisplayName":  "Windows Mobile Device Center Driver Update",
+        "DisplayVersion":  "6.1.6965.0",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{92DBCA36-9B41-4DD1-941A-AED149DD37F0}"
+    },
+    {
+        "DisplayName":  "Intel(R) Management Engine Driver",
+        "DisplayVersion":  "1.0.0.0",
+        "Publisher":  "Intel Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{93D06EF3-7B70-4731-9B6A-DB99FA591EC7}"
+    },
+    {
+        "DisplayName":  "Intel(R) Serial IO",
+        "DisplayVersion":  "30.100.2013.5",
+        "Publisher":  "Intel Corporation",
+        "InstallLocation":  "C:\\Program Files\\Intel\\Intel(R) Serial IO",
+        "UninstallString":  "\"C:\\ProgramData\\Intel\\Package Cache\\{9FD91C5C-44AE-4D9D-85BE-AE52816B0294}\\Setup.exe\" -uninstall"
+    },
+    {
+        "DisplayName":  "Autodesk Access",
+        "DisplayVersion":  "2.4.0.113",
+        "Publisher":  "Autodesk, Inc.",
+        "InstallLocation":  "C:\\Program Files\\Autodesk",
+        "UninstallString":  "C:\\Program Files\\Autodesk\\AdODIS\\V1\\Installer.exe -i uninstall --trigger_point system -m C:\\ProgramData\\Autodesk\\ODIS\\metadata\\{A3158B3E-5F28-358A-BF1A-9532D8EBC811}\\pkg.access.xml -x \"C:\\Program Files\\Autodesk\\AdODIS\\V1\\SetupRes\\manifest.xsd\" --manifest_type package"
+    },
+    {
+        "DisplayName":  "Microsoft Teams Meeting Add-in for Microsoft Office",
+        "DisplayVersion":  "1.25.28902",
+        "Publisher":  "Microsoft",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{A7AB73A3-CB10-4AA5-9D38-6AEFFBDE4C91}"
+    },
+    {
+        "DisplayName":  "Adobe Acrobat (64-bit)",
+        "DisplayVersion":  "25.001.20997",
+        "Publisher":  "Adobe",
+        "InstallLocation":  "C:\\Program Files\\Adobe\\Acrobat DC\\",
+        "UninstallString":  "MsiExec.exe /I{AC76BA86-1033-1033-7760-BC15014EA700}"
+    },
+    {
+        "DisplayName":  "Autodesk DWG TrueView 2022 - English",
+        "DisplayVersion":  "24.1.154.0",
+        "Publisher":  "Autodesk, Inc.",
+        "InstallLocation":  "C:\\Program Files\\Autodesk",
+        "UninstallString":  "C:\\Program Files\\Autodesk\\AdODIS\\V1\\Installer.exe -i uninstall --trigger_point system -m C:\\ProgramData\\Autodesk\\ODIS\\metadata\\{C1E477AF-DE1B-34E4-B76B-505C7B8FB980}\\bundleManifest.xml -x C:\\ProgramData\\Autodesk\\ODIS\\metadata\\{C1E477AF-DE1B-34E4-B76B-505C7B8FB980}\\SetupRes\\manifest.xsd"
+    },
+    {
+        "DisplayName":  "Intel(R) Management Engine Components",
+        "DisplayVersion":  "1.0.0.0",
+        "Publisher":  "Intel Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{C6C8028F-7CB3-4CC1-B2E8-436DD941E798}"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030",
+        "DisplayVersion":  "11.0.61030",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{CF2BEA3C-26EA-32F8-AA9B-331F7E34BA97}"
+    },
+    {
+        "DisplayName":  "Autodesk Navisworks Freedom 2025",
+        "DisplayVersion":  "22.0.141123",
+        "Publisher":  "Autodesk, Inc.",
+        "InstallLocation":  "C:\\Program Files\\Autodesk",
+        "UninstallString":  "C:\\Program Files\\Autodesk\\AdODIS\\V1\\Installer.exe -i uninstall --trigger_point system -m C:\\ProgramData\\Autodesk\\ODIS\\metadata\\{D3B0AE93-EFDC-396F-8A81-AAA853DF7637}\\bundleManifest.xml -x C:\\ProgramData\\Autodesk\\ODIS\\metadata\\{D3B0AE93-EFDC-396F-8A81-AAA853DF7637}\\SetupRes\\manifest.xsd"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2008 Redistributable - x64 9.0.30411",
+        "DisplayVersion":  "9.0.30411",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{D93AC9C8-B6CF-391E-BD2F-48AF4727476C}"
+    },
+    {
+        "DisplayName":  "Dynamic Application Loader Host Interface Service",
+        "DisplayVersion":  "1.0.0.0",
+        "Publisher":  "Intel Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{D9788A43-0D13-4259-8D9C-9D9B7E07FB18}"
+    },
+    {
+        "DisplayName":  "Update for x64-based Windows Systems (KB5001716)",
+        "DisplayVersion":  "8.94.0.0",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{DA80A019-4C3B-4DAA-ACA1-6937D7CAAF9E}"
+    },
+    {
+        "DisplayName":  "Belgium e-ID middleware 5.0.17 (build 5498)",
+        "DisplayVersion":  "5.0.5498",
+        "Publisher":  "Belgian Government",
+        "InstallLocation":  "C:\\Program Files (x86)\\Belgium Identity Card\\",
+        "UninstallString":  "MsiExec.exe /I{DB942AEA-93D6-4FE4-8862-180D35A75498}"
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  "255.255.65535.0",
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "HP Wolf Security - Console",
+        "DisplayVersion":  "11.1.6.1024",
+        "Publisher":  "HP Inc.",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{E742027E-BFE1-40E6-9026-199206E3B149}"
+    }
+]

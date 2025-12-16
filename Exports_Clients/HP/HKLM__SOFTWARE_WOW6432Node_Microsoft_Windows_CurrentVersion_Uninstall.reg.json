@@ -1,0 +1,709 @@
+[
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "Adobe Digital Editions 4.5",
+        "DisplayVersion":  "4.5.12",
+        "Publisher":  "Adobe Systems Incorporated",
+        "InstallLocation":  null,
+        "UninstallString":  "\"C:\\Program Files (x86)\\Adobe\\Adobe Digital Editions 4.5\\uninstall.exe\""
+    },
+    {
+        "DisplayName":  "Brave",
+        "DisplayVersion":  "143.1.85.111",
+        "Publisher":  "Brave Software Inc",
+        "InstallLocation":  "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application",
+        "UninstallString":  "\"C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\143.1.85.111\\Installer\\setup.exe\" --uninstall --system-level"
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "FileZilla 3.68.1",
+        "DisplayVersion":  "3.68.1",
+        "Publisher":  "Tim Kosse",
+        "InstallLocation":  "C:\\Program Files\\FileZilla FTP Client",
+        "UninstallString":  "\"C:\\Program Files\\FileZilla FTP Client\\uninstall.exe\""
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "foobar2000 v1.6.7",
+        "DisplayVersion":  "1.6.7",
+        "Publisher":  "Peter Pawlowski",
+        "InstallLocation":  "C:\\Program Files (x86)\\foobar2000",
+        "UninstallString":  "\"C:\\Program Files (x86)\\foobar2000\\uninstall.exe\" _?=C:\\Program Files (x86)\\foobar2000"
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  "2025.2.0.33046",
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "IMMI 2021",
+        "DisplayVersion":  "2021",
+        "Publisher":  "Wölfel Engineering GmbH \u0026 Co. KG",
+        "InstallLocation":  "C:\\Program Files (x86)\\IMMI 2021",
+        "UninstallString":  "\"C:\\ProgramData\\{9CDC898F-1C97-470F-BAD4-F56233396F7E}\\immisetup.exe\" REMOVE=TRUE MODIFY=FALSE"
+    },
+    {
+        "DisplayName":  "IMMI 2021 update 2",
+        "DisplayVersion":  "2021",
+        "Publisher":  "Wölfel Engineering GmbH \u0026 Co. KG",
+        "InstallLocation":  "C:\\Program Files (x86)\\IMMI 2021",
+        "UninstallString":  "\"C:\\ProgramData\\{AC5ACC5A-2517-4547-AAE6-553F82E81F0F}\\IMMI_2021_Update2_Setup.exe\" REMOVE=TRUE MODIFY=FALSE"
+    },
+    {
+        "DisplayName":  "IMMI 2023",
+        "DisplayVersion":  "2023",
+        "Publisher":  "Wölfel Engineering GmbH \u0026 Co. KG",
+        "InstallLocation":  "C:\\Program Files (x86)\\IMMI 2023",
+        "UninstallString":  "\"C:\\ProgramData\\{E92DB3EA-A340-4C9B-8A09-AC0B984D50F3}\\immisetup.exe\" REMOVE=TRUE MODIFY=FALSE"
+    },
+    {
+        "DisplayName":  "IMMI 2024",
+        "DisplayVersion":  "2024",
+        "Publisher":  "Wölfel Engineering GmbH \u0026 Co. KG",
+        "InstallLocation":  "C:\\Program Files (x86)\\IMMI 2024",
+        "UninstallString":  "\"C:\\ProgramData\\{70FC70AB-A600-43C2-817B-3DE1D78D13B6}\\immisetup.exe\" REMOVE=TRUE MODIFY=FALSE"
+    },
+    {
+        "DisplayName":  "Kamo",
+        "DisplayVersion":  "4.8.1258.1658",
+        "Publisher":  "Piriform",
+        "InstallLocation":  "C:\\Program Files (x86)\\Kamo",
+        "UninstallString":  "\"C:\\Program Files\\Common Files\\Piriform\\Icarus\\piriform-atrk\\icarus.exe\" /uninstall:piriform-atrk"
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  "1.3.211.7",
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "Microsoft Edge WebView2 Runtime",
+        "DisplayVersion":  "142.0.3595.94",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application",
+        "UninstallString":  "\"C:\\Program Files (x86)\\Microsoft\\EdgeWebView\\Application\\142.0.3595.94\\Installer\\setup.exe\" --uninstall --msedgewebview --system-level --verbose-logging"
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "NinjaRMMAgent",
+        "DisplayVersion":  "11.0.5792",
+        "Publisher":  "NinjaRMM LLC",
+        "InstallLocation":  "C:\\Program Files (x86)/beflbureaudefonsecamainofficed26c0c-5.7.8652",
+        "UninstallString":  "\"C:\\Program Files (x86)/beflbureaudefonsecamainofficed26c0c-5.7.8652/NinjaRMMAgent.exe\" -uninstall"
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "Silicon Laboratories CP210x USB to UART Bridge (Driver Removal)",
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  "C:\\WINDOWS\\system32\\Silabs\\DriverUninstaller.exe VCP CP210x Cardinal\\SLABCOMM\u002610C4\u0026EA60"
+    },
+    {
+        "DisplayName":  "Surfer 9",
+        "DisplayVersion":  null,
+        "Publisher":  "Golden Software",
+        "InstallLocation":  "C:\\Program Files (x86)\\Golden Software\\Surfer 9",
+        "UninstallString":  "\"C:\\ProgramData\\{C94FE16B-955C-429D-ADAB-F82CF86161EF}\\Surfer(9.9.785)_Installer.exe\" REMOVE=TRUE MODIFY=FALSE"
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40664",
+        "DisplayVersion":  "12.0.40664.0",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  null,
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{042d26ef-3dbe-4c25-95d3-4c1b11b235a7}\\vcredist_x64.exe\"  /uninstall"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.30501",
+        "DisplayVersion":  "12.0.30501.0",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  null,
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{050d4fc8-5d48-4b8f-8972-47c82c46020f}\\vcredist_x64.exe\"  /uninstall"
+    },
+    {
+        "DisplayName":  "Request Handler Agent",
+        "DisplayVersion":  "2.13.7.5097",
+        "Publisher":  "N-able",
+        "InstallLocation":  "C:\\Program Files (x86)\\MspPlatform\\RequestHandlerAgent\\",
+        "UninstallString":  "\"C:\\Program Files (x86)\\MspPlatform\\RequestHandlerAgent\\unins000.exe\""
+    },
+    {
+        "DisplayName":  "Realtek USB Audio",
+        "DisplayVersion":  "6.3.9600.250",
+        "Publisher":  "Realtek Semiconductor Corp.",
+        "InstallLocation":  "C:\\Program Files (x86)\\Realtek\\Audio",
+        "UninstallString":  "\"C:\\Program Files (x86)\\InstallShield Installation Information\\{0A46A65D-89AC-464C-8026-3CD44960BD04}\\setup.exe\" -runfromtemp  -removeonly"
+    },
+    {
+        "DisplayName":  "IMMI 2019",
+        "DisplayVersion":  "2024",
+        "Publisher":  "Wölfel Engineering GmbH \u0026 Co. KG ",
+        "InstallLocation":  "C:\\Program Files (x86)\\IMMI 2024",
+        "UninstallString":  "C:\\ProgramData\\{70FC70AB-A600-43C2-817B-3DE1D78D13B6}\\immisetup.exe"
+    },
+    {
+        "DisplayName":  "Windows 11 Installation Assistant",
+        "DisplayVersion":  "1.4.19041.6448",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  null,
+        "UninstallString":  "\"C:\\Program Files (x86)\\WindowsInstallationAssistant\\Windows10UpgraderApp.exe\" /SunValley /ForceUninstall"
+    },
+    {
+        "DisplayName":  "Norsonic NorReview 6.2",
+        "DisplayVersion":  "6.2",
+        "Publisher":  "Norsonic",
+        "InstallLocation":  "C:\\Program Files (x86)\\Norsonic\\NorReview",
+        "UninstallString":  "\"C:\\Program Files (x86)\\InstallShield Installation Information\\{140B4D43-9BE9-4EE5-B7EE-946C5DB9C332}\\setup.exe\" -runfromtemp -l0x0409  -removeonly"
+    },
+    {
+        "DisplayName":  "HP Notifications",
+        "DisplayVersion":  "1.1.26.1",
+        "Publisher":  "HP",
+        "InstallLocation":  "C:\\Program Files (x86)\\HP\\HP Notifications\\",
+        "UninstallString":  "MsiExec.exe /X{19F557DE-662A-4FEA-B635-1CACD56CC483}"
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "Patch Management Service Controller",
+        "DisplayVersion":  "2.13.7.5591",
+        "Publisher":  "N-able",
+        "InstallLocation":  "C:\\Program Files (x86)\\MspPlatform\\PME\\",
+        "UninstallString":  "\"C:\\Program Files (x86)\\MspPlatform\\PME\\unins000.exe\""
+    },
+    {
+        "DisplayName":  "dBFileManager",
+        "DisplayVersion":  "6.3.0.0",
+        "Publisher":  "ACOEM France SAS",
+        "InstallLocation":  "C:\\Program Files (x86)\\01dB\\dBFileManager 6\\",
+        "UninstallString":  "MsiExec.exe /I{248B617C-6A26-4920-B9D5-A8133A7260E2}"
+    },
+    {
+        "DisplayName":  "Foxit PDF Reader",
+        "DisplayVersion":  "2025.2.0.33046",
+        "Publisher":  "Foxit Software Inc.",
+        "InstallLocation":  "C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\",
+        "UninstallString":  "MsiExec.exe /X{251994CB-7551-11F0-8F47-54BF64A63C26}"
+    },
+    {
+        "DisplayName":  "Samsung Magician",
+        "DisplayVersion":  "8.2.0.890",
+        "Publisher":  "Samsung Electronics",
+        "InstallLocation":  "C:\\Program Files (x86)\\Samsung\\Samsung Magician\\",
+        "UninstallString":  "\"C:\\Program Files (x86)\\Samsung\\Samsung Magician\\unins000.exe\""
+    },
+    {
+        "DisplayName":  "dBTrait",
+        "DisplayVersion":  "6.3.0.1",
+        "Publisher":  "ACOEM France SAS",
+        "InstallLocation":  "C:\\Program Files (x86)\\01dB\\dBTrait 6\\",
+        "UninstallString":  "MsiExec.exe /I{336857A7-E634-48AC-9BF1-77DE95936776}"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.61030",
+        "DisplayVersion":  "11.0.61030.0",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  null,
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}\\vcredist_x86.exe\"  /uninstall"
+    },
+    {
+        "DisplayName":  "Foxit PDF Reader",
+        "DisplayVersion":  "2025.2.0.33046",
+        "Publisher":  "Foxit Software Inc.",
+        "InstallLocation":  null,
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{3422785d-02d9-40c6-a890-d56c21c1eea8}\\GA_PDFReader_AllLang_Online_Bundle_v2025.2.0.33046.exe\"  /uninstall"
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  "C:\\ProgramData\\{AC5ACC5A-2517-4547-AAE6-553F82E81F0F}\\IMMI_2021_Update2_Setup.exe"
+    },
+    {
+        "DisplayName":  "HP OCR",
+        "DisplayVersion":  "1.0.1020.0",
+        "Publisher":  "HP Inc.",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{4416D01E-D13B-4527-ABEC-F870628AF24C}"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.44.35208",
+        "DisplayVersion":  "14.44.35208",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{491C67BA-2F2F-4A90-B9DD-4C76BFDBEA02}"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2022 X86 Additional Runtime - 14.44.35208",
+        "DisplayVersion":  "14.44.35208",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{5A76FFAE-36C5-4648-80BD-4BB5B6E971F0}"
+    },
+    {
+        "DisplayName":  "Norsonic NorXfer 6.1",
+        "DisplayVersion":  "6.1",
+        "Publisher":  "Norsonic",
+        "InstallLocation":  "C:\\Program Files (x86)\\Norsonic\\NorXfer",
+        "UninstallString":  "\"C:\\Program Files (x86)\\InstallShield Installation Information\\{6373D237-4203-4FED-BEDC-5ADB72639C73}\\setup.exe\" -runfromtemp -l0x0409  -removeonly"
+    },
+    {
+        "DisplayName":  "HP Connection Optimizer",
+        "DisplayVersion":  "2.0.20.0",
+        "Publisher":  "HP Inc",
+        "InstallLocation":  "C:\\Program Files (x86)\\HP Inc\\HP Connection Optimizer",
+        "UninstallString":  "\"C:\\Program Files (x86)\\InstallShield Installation Information\\{6468C4A5-E47E-405F-B675-A70A70983EA6}\\setup.exe\" -runfromtemp -l0x0413  -removeonly"
+    },
+    {
+        "DisplayName":  "Surfer 9",
+        "DisplayVersion":  "9.9.785",
+        "Publisher":  "Golden Software, Inc.",
+        "InstallLocation":  "C:\\Program Files (x86)\\Golden Software\\Surfer 9",
+        "UninstallString":  "C:\\ProgramData\\{C94FE16B-955C-429D-ADAB-F82CF86161EF}\\Surfer(9.9.785)_Installer.exe"
+    },
+    {
+        "DisplayName":  "Teams Machine-Wide Installer",
+        "DisplayVersion":  "1.4.0.22976",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{731F6BAA-A986-45A4-8936-7C3AAAAA760B}"
+    },
+    {
+        "DisplayName":  "Norsonic NorConnect 5.0",
+        "DisplayVersion":  "5.0",
+        "Publisher":  "Norsonic",
+        "InstallLocation":  "C:\\Program Files\\Norsonic\\NorConnect Windows",
+        "UninstallString":  "\"C:\\Program Files (x86)\\InstallShield Installation Information\\{74481CDC-A886-4147-A139-9E59B8280AD6}\\setup.exe\" -runfromtemp -l0x0409  -removeonly"
+    },
+    {
+        "DisplayName":  "GoTo Opener",
+        "DisplayVersion":  "1.0.562",
+        "Publisher":  "LogMeIn, Inc.",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{7659273F-0EB6-4ECB-BC7D-5889F3FD3075}"
+    },
+    {
+        "DisplayName":  "Sentinel Runtime",
+        "DisplayVersion":  "7.102.34507.60000",
+        "Publisher":  "Gemalto",
+        "InstallLocation":  "C:\\Program Files (x86)\\Common Files\\Aladdin Shared\\",
+        "UninstallString":  "MsiExec.exe /X{7A3A8167-2BAC-484C-BC35-C012293562C0}"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2013 x86 Minimum Runtime - 12.0.40664",
+        "DisplayVersion":  "12.0.40664",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{8122DAB1-ED4D-3676-BB0A-CA368196543E}"
+    },
+    {
+        "DisplayName":  "Silicon Laboratories CP210x VCP Drivers for Windows 2000/XP/2003 Server/Vista",
+        "DisplayVersion":  "5.30",
+        "Publisher":  "Silicon Laboratories, Inc.",
+        "InstallLocation":  "c:\\SiLabs\\MCU",
+        "UninstallString":  "\"C:\\Program Files (x86)\\InstallShield Installation Information\\{8875D5BE-E71F-4D95-933E-266688F22DC5}\\setup.exe\" -runfromtemp -l0x0009 -removeonly"
+    },
+    {
+        "DisplayName":  "Zoom Workplace (32-bit)",
+        "DisplayVersion":  "6.4.64384",
+        "Publisher":  "Zoom",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{8B20461B-A673-4A81-BBC6-147570D6DD18}"
+    },
+    {
+        "DisplayName":  "IMMI 2019",
+        "DisplayVersion":  "2021",
+        "Publisher":  "Wölfel Engineering GmbH \u0026 Co. KG ",
+        "InstallLocation":  "C:\\Program Files (x86)\\IMMI 2021",
+        "UninstallString":  "C:\\ProgramData\\{9CDC898F-1C97-470F-BAD4-F56233396F7E}\\immisetup.exe"
+    },
+    {
+        "DisplayName":  "HP PC Hardware Diagnostics UEFI",
+        "DisplayVersion":  "10.2.0.0",
+        "Publisher":  "HP",
+        "InstallLocation":  "C:\\Windows\\HP\\",
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.44.35208",
+        "DisplayVersion":  "14.44.35208.0",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  null,
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{9387bec2-2f2b-48d1-a0ce-692c5df7042d}\\VC_redist.x64.exe\"  /uninstall"
+    },
+    {
+        "DisplayName":  "IMMI 2019",
+        "DisplayVersion":  "2023",
+        "Publisher":  "Wölfel Engineering GmbH \u0026 Co. KG ",
+        "InstallLocation":  "C:\\Program Files (x86)\\IMMI 2023",
+        "UninstallString":  "C:\\ProgramData\\{E92DB3EA-A340-4C9B-8A09-AC0B984D50F3}\\immisetup.exe"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161",
+        "DisplayVersion":  "9.0.30729.6161",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{9BE518E6-ECC6-35A9-88E4-87755C07200F}"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.40664",
+        "DisplayVersion":  "12.0.40664.0",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  null,
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{9dff3540-fc85-4ed5-ac84-9e3c7fd8bece}\\vcredist_x86.exe\"  /uninstall"
+    },
+    {
+        "DisplayName":  "Adobe Refresh Manager",
+        "DisplayVersion":  "1.8.0",
+        "Publisher":  "Adobe Systems Incorporated",
+        "InstallLocation":  "C:\\Program Files (x86)\\Common Files\\Adobe\\ARM\\1.0\\",
+        "UninstallString":  "MsiExec.exe /I{AC76BA86-0804-1033-1959-018244601120}"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030",
+        "DisplayVersion":  "11.0.61030",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{B175520C-86A2-35A7-8619-86DC379688B9}"
+    },
+    {
+        "DisplayName":  "SvanPC++",
+        "DisplayVersion":  "3.3.44",
+        "Publisher":  "Svantek",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{B205FD4C-E1A9-44B3-80CE-26B629B3ED74}"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.42.34438",
+        "DisplayVersion":  "14.42.34438.0",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  null,
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{b49c10dd-4d54-45f8-ad13-fa25704456a4}\\VC_redist.x64.exe\"  /uninstall"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030",
+        "DisplayVersion":  "11.0.61030",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{BD95A8CD-1D9F-35AD-981A-3E7925026EBB}"
+    },
+    {
+        "DisplayName":  "Norsonic NorUpdate 1.6",
+        "DisplayVersion":  "1.6",
+        "Publisher":  "Norsonic",
+        "InstallLocation":  "C:\\Program Files (x86)\\Norsonic\\NorUpdate",
+        "UninstallString":  "\"C:\\Program Files (x86)\\InstallShield Installation Information\\{C60896D3-8BE9-489E-8743-ABAD50115939}\\setup.exe\" -runfromtemp -l0x0409  -removeonly"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.61030",
+        "DisplayVersion":  "11.0.61030.0",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  null,
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{ca67548a-5ebe-413a-b50c-4b9ceb6d66c6}\\vcredist_x64.exe\"  /uninstall"
+    },
+    {
+        "DisplayName":  "NinjaRMMAgent",
+        "DisplayVersion":  "11.0.5792",
+        "Publisher":  "NinjaRMM LLC",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{CDB5C6BB-7A0A-443B-B563-235ABD3524B2}"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40664",
+        "DisplayVersion":  "12.0.40664",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{D401961D-3A20-3AC7-943B-6139D5BD490A}"
+    },
+    {
+        "DisplayName":  "HP System Default Settings",
+        "DisplayVersion":  "1.5.9.1",
+        "Publisher":  "HP Inc.",
+        "InstallLocation":  "C:\\Program Files (x86)\\HP\\HP System Default Settings\\",
+        "UninstallString":  "MsiExec.exe /X{D530265D-C486-4A7F-8FC0-79CE82BB5F6B}"
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "File Cache Service Agent",
+        "DisplayVersion":  "2.13.7.5097",
+        "Publisher":  "N-able",
+        "InstallLocation":  "C:\\Program Files (x86)\\MspPlatform\\FileCacheServiceAgent\\",
+        "UninstallString":  "\"C:\\Program Files (x86)\\MspPlatform\\FileCacheServiceAgent\\unins000.exe\""
+    },
+    {
+        "DisplayName":  "Connective Signing Plugins",
+        "DisplayVersion":  "2.0.9",
+        "Publisher":  "Connective",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{E77C1125-398A-4FF0-9F51-CBB5F7144E16}"
+    },
+    {
+        "DisplayName":  "Microsoft Edge",
+        "DisplayVersion":  "143.0.3650.75",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{E8142AE2-9157-3015-99AE-260EA0BE0377}"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.44.35208",
+        "DisplayVersion":  "14.44.35208.0",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  null,
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{e90abaf0-d749-437b-ba99-cda1c84b6754}\\VC_redist.x86.exe\"  /uninstall"
+    },
+    {
+        "DisplayName":  "PL-2303 USB-to-Serial",
+        "DisplayVersion":  "1.00.000",
+        "Publisher":  "Prolific Technology INC",
+        "InstallLocation":  "C:\\Program Files (x86)\\Prolific Technology INC\\PL-2303 USB-to-Serial",
+        "UninstallString":  "\"C:\\Program Files (x86)\\InstallShield Installation Information\\{ECC3713C-08A4-40E3-95F1-7D0704F1CE5E}\\setup.exe\" -runfromtemp -l0x0009Installed -removeonly"
+    },
+    {
+        "DisplayName":  "MSP Core Agent",
+        "DisplayVersion":  "3.23.1",
+        "Publisher":  "N-able Technologies Ltd.",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{ED85AD79-E341-4F87-A796-F36B9F6C91C8}"
+    },
+    {
+        "DisplayName":  "AVG Update Helper",
+        "DisplayVersion":  "1.8.1582.3",
+        "Publisher":  "AVG Technologies",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /I{EDB7AEE7-E932-4836-AE50-D3B0B7766CB5}"
+    },
+    {
+        "DisplayName":  "Windows Agent",
+        "DisplayVersion":  "2025.4.1016",
+        "Publisher":  "N-able Technologies",
+        "InstallLocation":  "C:\\Program Files (x86)\\N-able Technologies\\Windows Agent\\",
+        "UninstallString":  "MsiExec.exe /X{EE236F1D-7981-41CF-B317-7AEE05FF9E39}"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219",
+        "DisplayVersion":  "10.0.40219",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  "",
+        "UninstallString":  "MsiExec.exe /X{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}"
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  null,
+        "DisplayVersion":  null,
+        "Publisher":  null,
+        "InstallLocation":  null,
+        "UninstallString":  null
+    },
+    {
+        "DisplayName":  "Belgium e-ID viewer 5.0.20 (build 5561)",
+        "DisplayVersion":  "5.0.5561",
+        "Publisher":  "Belgian Government",
+        "InstallLocation":  "C:\\Program Files (x86)\\Belgium Identity Card\\",
+        "UninstallString":  "MsiExec.exe /I{F3DC7F06-92FF-4C98-87F5-72C0B7865561}"
+    },
+    {
+        "DisplayName":  "Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.30501",
+        "DisplayVersion":  "12.0.30501.0",
+        "Publisher":  "Microsoft Corporation",
+        "InstallLocation":  null,
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{f65db027-aff3-4070-886a-0d87064aabb1}\\vcredist_x86.exe\"  /uninstall"
+    }
+]

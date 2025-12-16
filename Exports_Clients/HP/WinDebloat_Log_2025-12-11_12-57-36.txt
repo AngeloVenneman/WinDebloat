@@ -1,0 +1,72 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20251211125736
+Username: AzureAD\KrisVandenEynde(DeFo
+RunAs User: AzureAD\KrisVandenEynde(DeFo
+Configuration Name: 
+Machine: BDF-KVDE (Microsoft Windows NT 10.0.19045.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 26476
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\WinDebloat\WinDebloat_Log_2025-12-11_12-57-36.txt
+PS C:\WINDOWS\system32> Write-Output ""
+
+PS C:\WINDOWS\system32> #################################################################################
+PS C:\WINDOWS\system32> #                                                                               #
+PS C:\WINDOWS\system32> #   Collect Appx before debloat                                                 #
+PS C:\WINDOWS\system32> #                                                                               #
+PS C:\WINDOWS\system32> #################################################################################
+PS C:\WINDOWS\system32> $machine = $env:COMPUTERNAME
+PS C:\WINDOWS\system32> $manufacturer = (Get-CimInstance Win32_ComputerSystem).Manufacturer -replace '[^\w]', ''
+PS C:\WINDOWS\system32> if ([string]::IsNullOrWhiteSpace($manufacturer)) { $manufacturer = "Unknown" }
+PS C:\WINDOWS\system32> $appxList = Get-AppxPackage -AllUsers | Select-Object -ExpandProperty Name | Sort-Object -Unique
+PS C:\WINDOWS\system32> # Include manufacturer in the filename: MACHINE_MANUFACTURER.json
+PS C:\WINDOWS\system32> $fileName = "$manufacturer - $machine.json"
+PS C:\WINDOWS\system32> $filePath = Join-Path $WinDebloat $fileName
+PS C:\WINDOWS\system32> $appxList | ConvertTo-Json -Depth 5 | Set-Content -Path $filePath
+PS C:\WINDOWS\system32> Write-Output "AppX list saved for $machine ($manufacturer) → $fileName"
+AppX list saved for BDF-KVDE (HP) → HP - BDF-KVDE.json
+PS C:\WINDOWS\system32> #################################################################################
+PS C:\WINDOWS\system32> #                                                                               #
+PS C:\WINDOWS\system32> #    Export Traditional Programs from Registry                                  #
+PS C:\WINDOWS\system32> #                                                                               #
+PS C:\WINDOWS\system32> #################################################################################
+PS C:\WINDOWS\system32> # Registry keys to export
+PS C:\WINDOWS\system32> $uninstallKeys = @(
+    "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall",
+    "HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall"
+)
+PS C:\WINDOWS\system32> # Output folder
+PS C:\WINDOWS\system32> $exportFolder = "C:\WinDebloat"
+PS C:\WINDOWS\system32> if (-not (Test-Path $exportFolder)) { New-Item -ItemType Directory -Path $exportFolder }
+PS C:\WINDOWS\system32> foreach ($key in $uninstallKeys) {
+    $keyName = ($key -replace "[:\\]", "_") + ".reg.json"  # Convert to safe filename
+    $exportPath = Join-Path $exportFolder $keyName
+
+    # Get all subkeys and their properties
+    $allApps = Get-ChildItem $key -ErrorAction SilentlyContinue | ForEach-Object {
+        $props = Get-ItemProperty $_.PsPath
+        # Export only relevant properties
+        [PSCustomObject]@{
+            DisplayName = $props.DisplayName
+            DisplayVersion = $props.DisplayVersion
+            Publisher = $props.Publisher
+            InstallLocation = $props.InstallLocation
+            UninstallString = $props.UninstallString
+        }
+    }
+
+    # Save to JSON
+    $allApps | ConvertTo-Json -Depth 5 | Set-Content -Path $exportPath
+    Write-Output "Exported $key to $exportPath"
+}
+Exported HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall to C:\WinDebloat\HKLM__SOFTWARE_Microsoft_Windows_CurrentVersion_Uninstall.reg.json
+Exported HKLM:\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall to C:\WinDebloat\HKLM__SOFTWARE_WOW6432Node_Microsoft_Windows_CurrentVersion_Uninstall.reg.json

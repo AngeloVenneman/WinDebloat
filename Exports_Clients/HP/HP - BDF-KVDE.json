@@ -1,4 +1,4 @@
-$programs = @(
+[
     "1527c705-839a-4832-9118-54d4Bd6a0c89",
     "34791E63.CanonInkjetPrintUtility",
     "5319275A.WhatsAppDesktop",
@@ -134,4 +134,4 @@ $programs = @(
     "Windows.CBSPreview",
     "windows.immersivecontrolpanel",
     "Windows.PrintDialog"
-)
+]
